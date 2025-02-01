@@ -1,0 +1,10 @@
+.idea
+build
+build_debug
+build_release
+.clangd
+.clang-format
+.cache
+CMakeUserPresets.json
+.gitignore
+

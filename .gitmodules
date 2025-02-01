@@ -1,0 +1,33 @@
+[submodule "src/window"]
+	path = src/window
+	url = git@github.com:cpp-toolbox/window.git
+[submodule "scripts"]
+	path = scripts
+	url = git@github.com:cpp-toolbox/scripts.git
+[submodule "src/shader_cache"]
+	path = src/shader_cache
+	url = git@github.com:cpp-toolbox/shader_cache.git
+[submodule "src/logger_component"]
+	path = src/logger_component
+	url = git@github.com:cpp-toolbox/logger_component.git
+[submodule "assets/shaders"]
+	path = assets/shaders
+	url = git@github.com:cpp-toolbox/shaders.git
+[submodule "src/batcher"]
+	path = src/batcher
+	url = git@github.com:cpp-toolbox/batcher.git
+[submodule "src/vertex_geometry"]
+	path = src/vertex_geometry
+	url = git@github.com:cpp-toolbox/vertex_geometry.git
+[submodule "src/shader_standard"]
+	path = src/shader_standard
+	url = git@github.com:cpp-toolbox/shader_standard.git
+[submodule "src/draw_info"]
+	path = src/draw_info
+	url = git@github.com:cpp-toolbox/draw_info.git
+[submodule "src/graphics/transform"]
+	path = src/graphics/transform
+	url = git@github.com:cpp-toolbox/transform.git
+[submodule "src/utility/unique_id_generator"]
+	path = src/utility/unique_id_generator
+	url = git@github.com:cpp-toolbox/unique_id_generator.git
