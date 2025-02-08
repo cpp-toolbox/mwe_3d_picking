@@ -1,2 +1,2 @@
-absolute_position_with_solid_color
-transform_v_with_textures
+cwl_v_transformation_ubos_1024_with_colored_vertex
+cwl_v_transformation_ubos_1024_with_object_id
