@@ -203,9 +203,11 @@ int main() {
         shader_cache.set_uniform(ShaderType::CWL_V_TRANSFORMATION_UBOS_1024_WITH_COLORED_VERTEX,
                                  ShaderUniformVariable::WORLD_TO_CAMERA, fps_camera.get_view_matrix());
 
-        fps_camera.process_input(input_state.is_pressed(EKey::LEFT_CONTROL), input_state.is_pressed(EKey::LEFT_SHIFT),
+        fps_camera.process_input(input_state.is_pressed(EKey::LEFT_CONTROL), input_state.is_pressed(EKey::TAB),
                                  input_state.is_pressed(EKey::w), input_state.is_pressed(EKey::a),
-                                 input_state.is_pressed(EKey::s), input_state.is_pressed(EKey::d), delta_time);
+                                 input_state.is_pressed(EKey::s), input_state.is_pressed(EKey::d),
+                                 input_state.is_pressed(EKey::SPACE), input_state.is_pressed(EKey::LEFT_SHIFT),
+                                 delta_time);
 
         ltw_matrices[1] = cone_ivp.transform.get_transform_matrix();
         ltw_matrices[2] = cyl_ivp.transform.get_transform_matrix();
